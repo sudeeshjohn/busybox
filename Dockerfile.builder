@@ -1,4 +1,4 @@
-FROM ppc64le/debian:jessie
+FROM ppc64le/debian
 
 RUN apt-get update && apt-get install -y \
 		bzip2 \

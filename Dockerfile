@@ -1,3 +1,4 @@
 FROM scratch
 ADD busybox.tar.xz /
-ENTRYPOINT ["/bin/sh"]
+ADD hello /
+RUN ["/hello"]
